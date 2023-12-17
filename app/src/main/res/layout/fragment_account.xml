@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:orientation="vertical"
+    android:background="@color/gray_100">
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/deep_purple_500"
+        android:paddingVertical="@dimen/account_llHeader_paddingVertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_tvName_text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="@dimen/account_tvName_marginBottom"
+            android:textSize="@dimen/account_tvName_textSize"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="@dimen/account_ivAvatar_size"
+            android:layout_height="@dimen/account_ivAvatar_size"
+            android:src="@drawable/account_large_icon"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_tvUsername_text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginVertical="@dimen/account_tvUsername_marginVertical"
+            android:textSize="@dimen/account_tvUsername_textSize"/>
+
+        <TextView
+            android:id="@+id/tvCreateAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/account_tvCreateAt_text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/account_tvCreateAt_textSize"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_tvProfile_text"
+        android:padding="@dimen/account_tvItem_padding"
+        android:layout_marginBottom="@dimen/account_tvItem_marginBottom"
+        android:background="@drawable/custom_text_button_bg"
+        android:drawableLeft="@drawable/profile_icon"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/account_tvItem_drawablePadding"
+        android:textSize="@dimen/account_tvProfile_textSize"
+        />
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_tvLogout_text"
+        android:padding="@dimen/account_tvItem_padding"
+        android:background="@drawable/custom_text_button_bg"
+        android:layout_marginBottom="@dimen/account_tvItem_marginBottom"
+        android:drawableLeft="@drawable/logout_icon"
+        android:gravity="center_vertical"
+        android:drawablePadding="@dimen/account_tvItem_drawablePadding"
+        android:textSize="@dimen/account_tvLogout_textSize"/>
+
+</LinearLayout>

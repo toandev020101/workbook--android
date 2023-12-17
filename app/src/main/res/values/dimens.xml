@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_borderWidth">1sp</dimen>
+    <dimen name="text_borderRadius">10sp</dimen>
+
+    <dimen name="editTextMul_height">100sp</dimen>
+    <dimen name="editText_height">50sp</dimen>
+    <dimen name="editText_drawablePadding">8sp</dimen>
+    <dimen name="editText_padding">8sp</dimen>
+    <dimen name="editText_marginTop">10sp</dimen>
+
+    <dimen name="button_height">55sp</dimen>
+    <dimen name="button_textSize">18sp</dimen>
+    <dimen name="button_marginTop">20sp</dimen>
+    <dimen name="button_radius">20sp</dimen>
+
+    <dimen name="dialog_radius">30sp</dimen>
+    <dimen name="dialog_padding">10sp</dimen>
+
+    <dimen name="dialog_tvName_textSize">22sp</dimen>
+    <dimen name="dialog_tvName_paddingLeft">26sp</dimen>
+
+    <dimen name="dialog_btnAdd_textSize">18sp</dimen>
+
+    <dimen name="dialog_btnClose_textSize">18sp</dimen>
+    <dimen name="dialog_btnClose_marginVertical">18sp</dimen>
+
+    <dimen name="header_llTitle_paddingLeft">60sp</dimen>
+
+    <dimen name="header_tvName_marginLeft">10sp</dimen>
+    <dimen name="header_tvName_textSize">24sp</dimen>
+
+    <dimen name="tvFinish_textSize">18sp</dimen>
+    <dimen name="tvFinish_drawablePadding">5sp</dimen>
+    <dimen name="tvFinish_padding">10sp</dimen>
+
+    <dimen name="tvEdit_textSize">18sp</dimen>
+    <dimen name="tvEdit_drawablePadding">5sp</dimen>
+    <dimen name="tvEdit_padding">10sp</dimen>
+
+    <dimen name="tvDel_textSize">18sp</dimen>
+    <dimen name="tvDel_drawablePadding">5sp</dimen>
+    <dimen name="tvDel_padding">10sp</dimen>
+
+    <dimen name="dialog_etName_marginVertical">20sp</dimen>
+    <dimen name="dialog_etName_marginHorizontal">10sp</dimen>
+
+    <dimen name="dialog_input_marginVertical">5sp</dimen>
+    <dimen name="dialog_input_marginHorizontal">10sp</dimen>
+
+    <!--  login dimen  -->
+    <dimen name="login_ivTopLogo_width">200sp</dimen>
+    <dimen name="login_ivTopLogo_height">200sp</dimen>
+
+    <dimen name="login_cvForm_margin">30sp</dimen>
+    <dimen name="login_cvForm_radius">30sp</dimen>
+    <dimen name="login_cvForm_elevation">20sp</dimen>
+
+    <dimen name="login_llForm_padding">24sp</dimen>
+
+    <dimen name="login_tvTitle_textSize">35sp</dimen>
+    <dimen name="login_tvTitle_marginBottom">20sp</dimen>
+
+    <dimen name="login_tvRegister_padding">8sp</dimen>
+    <dimen name="login_tvRegister_textSize">16sp</dimen>
+    <!--  login dimen  -->
+
+    <!--  register dimen  -->
+    <dimen name="register_ivTopLogo_width">200sp</dimen>
+    <dimen name="register_ivTopLogo_height">200sp</dimen>
+
+    <dimen name="register_cvForm_margin">30sp</dimen>
+    <dimen name="register_cvForm_radius">30sp</dimen>
+    <dimen name="register_cvForm_elevation">20sp</dimen>
+
+    <dimen name="register_llForm_padding">24sp</dimen>
+
+    <dimen name="register_tvTitle_textSize">35sp</dimen>
+    <dimen name="register_tvTitle_marginBottom">20sp</dimen>
+
+    <dimen name="register_tvLogin_padding">8sp</dimen>
+    <dimen name="register_tvLogin_textSize">16sp</dimen>
+    <!--  register dimen  -->
+
+    <!--  main dimen  -->
+    <dimen name="main_bnvNavigate_itemIconSize">30sp</dimen>
+    <!--  main dimen  -->
+
+    <!--  table dimen  -->
+    <dimen name="table_tvTitle_margin">10sp</dimen>
+    <dimen name="table_tvTitle_textSize">20sp</dimen>
+
+    <dimen name="table_llSearch_margin">10sp</dimen>
+
+    <dimen name="table_btnSearchCancel_textSize">20sp</dimen>
+
+    <dimen name="tableItem_tvName_padding">15sp</dimen>
+    <dimen name="tableItem_tvName_textSize">20sp</dimen>
+    <!--  table dimen  -->
+
+    <!--  dialog table dimen  -->
+    <dimen name="dialogTable_tvTheme_margin">10sp</dimen>
+    <dimen name="dialogTable_tvTheme_textSize">20sp</dimen>
+
+    <dimen name="dialogTableTheme_tvTheme_height">100sp</dimen>
+    <dimen name="dialogTableTheme_tvTheme_margin">10sp</dimen>
+
+    <dimen name="theme_borderWidth">1sp</dimen>
+    <dimen name="theme_borderWidth_active">2sp</dimen>
+    <dimen name="theme_borderRadius">10sp</dimen>
+    <!--  dialog table dimen  -->
+
+    <!--  card dimen  -->
+    <dimen name="card_tvTitle_margin">10sp</dimen>
+    <dimen name="card_tvTitle_textSize">20sp</dimen>
+
+    <dimen name="card_llSearch_margin">10sp</dimen>
+
+    <dimen name="card_btnSearchCancel_textSize">20sp</dimen>
+
+    <dimen name="cardItem_tvName_padding">15sp</dimen>
+    <dimen name="cardItem_tvName_textSize">20sp</dimen>
+    <dimen name="cardItem_tvName_drawablePadding">8sp</dimen>
+
+    <dimen name="cardExpire_llTitle_paddingVertical">15sp</dimen>
+
+    <dimen name="cardExpire_tvTitle_margin">10sp</dimen>
+    <dimen name="cardExpire_tvTitle_textSize">20sp</dimen>
+    <dimen name="cardExpire_tvTitle_drawablePadding">8sp</dimen>
+    <!--  card dimen  -->
+
+    <!--  notify dimen  -->
+    <dimen name="notifyItem_llNotifyItem_padding">10sp</dimen>
+
+    <dimen name="notifyItem_tvTitle_marginLeft">10sp</dimen>
+    <dimen name="notifyItem_tvTitle_textSize">18sp</dimen>
+
+    <dimen name="notifyItem_tvDuration_textSize">16sp</dimen>
+
+    <dimen name="notifyItem_tvMessage_textSize">18sp</dimen>
+    <dimen name="notifyItem_tvMessage_marginTop">10sp</dimen>
+    <!--  notify dimen  -->
+
+    <!--  account dimen  -->
+    <dimen name="account_llHeader_paddingVertical">10sp</dimen>
+
+    <dimen name="account_tvName_marginBottom">20sp</dimen>
+    <dimen name="account_tvName_textSize">20sp</dimen>
+
+    <dimen name="account_ivAvatar_size">100sp</dimen>
+
+    <dimen name="account_tvUsername_marginVertical">10sp</dimen>
+    <dimen name="account_tvUsername_textSize">18sp</dimen>
+
+    <dimen name="account_tvCreateAt_textSize">16sp</dimen>
+
+
+    <dimen name="account_tvProfile_textSize">18sp</dimen>
+    <dimen name="account_tvLogout_textSize">18sp</dimen>
+
+    <dimen name="account_tvItem_padding">10sp</dimen>
+    <dimen name="account_tvItem_marginBottom">1sp</dimen>
+    <dimen name="account_tvItem_drawablePadding">8sp</dimen>
+
+    <dimen name="accountProfile_tvTitle_paddingLeft">-60sp</dimen>
+
+    <dimen name="accountProfile_llAvatar_marginTop">20sp</dimen>
+
+    <dimen name="accountProfile_ivAvatar_size">150sp</dimen>
+
+    <dimen name="accountProfile_btnUpdate_marginHorizontal">10sp</dimen>
+
+    <dimen name="accountProfile_btn_height">50sp</dimen>
+    <dimen name="accountProfile_btn_textSize">16sp</dimen>
+    <dimen name="accountProfile_btn_marginTop">10sp</dimen>
+    <!--  account dimen  -->
+</resources>

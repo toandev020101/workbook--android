@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/auth_bg">
+
+    <ImageView
+        android:id="@+id/ivTopLogo"
+        android:layout_width="@dimen/register_ivTopLogo_width"
+        android:layout_height="@dimen/register_ivTopLogo_height"
+        android:src="@drawable/register_logo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/register_cvForm_margin"
+        app:cardCornerRadius="@dimen/register_cvForm_radius"
+        app:cardElevation="@dimen/login_cvForm_elevation"
+        android:background="@drawable/custom_text_bg_active">
+
+        <LinearLayout
+            android:id="@+id/llForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/register_llForm_padding">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_tvTitle_text"
+                android:textSize="@dimen/register_tvTitle_textSize"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/deep_purple_500"
+                android:layout_marginBottom="@dimen/register_tvTitle_marginBottom"
+                />
+
+            <EditText
+                android:id="@+id/etFullName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:background="@drawable/custom_text_bg_active"
+                android:drawableLeft="@drawable/user_icon"
+                android:drawablePadding="@dimen/editText_drawablePadding"
+                android:hint="@string/register_etFullName_hint"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="@dimen/editText_marginTop"
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/tvFullNameError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="error"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:background="@drawable/custom_text_bg_active"
+                android:drawableLeft="@drawable/user_icon"
+                android:drawablePadding="@dimen/editText_drawablePadding"
+                android:hint="@string/register_etUsername_hint"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="@dimen/editText_marginTop"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:id="@+id/tvUsernameError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="error"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:background="@drawable/custom_text_bg_active"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawableRight="@drawable/hide_icon"
+                android:drawablePadding="@dimen/editText_drawablePadding"
+                android:hint="@string/register_etPassword_hint"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="@dimen/editText_marginTop"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/tvPasswordError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="error"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/editText_height"
+                android:background="@drawable/custom_text_bg_active"
+                android:drawableLeft="@drawable/lock_icon"
+                android:drawableRight="@drawable/hide_icon"
+                android:drawablePadding="@dimen/editText_drawablePadding"
+                android:hint="@string/register_etConfirmPassword_hint"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="@dimen/editText_marginTop"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/tvConfirmPasswordError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="error"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/register_btnRegister_text"
+                android:textSize="@dimen/button_textSize"
+                android:layout_marginTop="@dimen/button_marginTop"
+                app:cornerRadius="@dimen/button_radius"
+                android:backgroundTint="@color/deep_purple_500"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/register_tvLogin_padding"
+        android:textSize="@dimen/register_tvLogin_textSize"
+        android:textAlignment="center"
+        android:textColor="@color/deep_purple_300"
+        android:text="@string/register_tvLogin_text"
+        />
+</LinearLayout>

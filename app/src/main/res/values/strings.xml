@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">WorkBookApp</string>
+
+    <string name="tvFinish_text">Hoàn thành</string>
+
+    <string name="tvEdit_text">Chỉnh sửa</string>
+
+    <string name="tvDel_text">Xóa</string>
+
+    <string name="dialog_btnAdd_text">Tạo mới</string>
+    <string name="dialog_btnClose_text">Thoát</string>
+
+    <string name="dialog_etName_error_empty">Tên không được để trống!</string>
+    <string name="dialog_etStartDate_error_empty">Ngày bắt đầu không được để trống!</string>
+    <string name="dialog_etEndDate_error_less">Ngày hết hạn phải lớn hơn ngày bắt đầu!</string>
+
+    <!--  login string  -->
+    <string name="login_tvTitle_text">WorkBook</string>
+    <string name="login_etUsername_hint">Nhập tài khoản</string>
+    <string name="login_etUsername_error_empty">Tài khoản không được để trống!</string>
+
+    <string name="login_etPassword_hint">Nhập mật khẩu</string>
+    <string name="login_etPassword_error_empty">Mật khẩu không được để trống!</string>
+
+    <string name="login_error_equal">Tài khoản hoặc mật khẩu không chính xác!</string>
+
+    <string name="login_btnLogin_text">Đăng nhập</string>
+    <string name="login_tvRegister_text">Bạn chưa có tài khoản?  Đăng ký ngay</string>
+    <!--  login string  -->
+
+    <!--  register string  -->
+    <string name="register_tvTitle_text">WorkBook</string>
+    <string name="register_etFullName_hint">Nhập họ và tên</string>
+    <string name="register_etFullName_error_empty">Họ và tên không thể để trống!</string>
+    <string name="register_etFullName_error_min">Họ và tên phải có từ 4 ký tự trở lên!</string>
+
+    <string name="register_etUsername_hint">Nhập tài khoản</string>
+    <string name="register_etUsername_error_empty">Tài khoản không được để trống!</string>
+    <string name="register_etUsername_error_min">Tài khoản phải có từ 4 ký tự trở lên!</string>
+    <string name="register_etUsername_error_exists">Tài khoản đã tồn tại!</string>
+
+    <string name="register_etPassword_hint">Nhập mật khẩu</string>
+    <string name="register_etPassword_error_empty">Mật khẩu không được để trống!</string>
+    <string name="register_etPassword_error_min">Mật khẩu phải có từ 4 ký tự trở lên!</string>
+
+    <string name="register_etConfirmPassword_hint">Nhập lại mật khẩu</string>
+    <string name="register_etConfirmPassword_error_empty">Mật khẩu nhập lại không được để trống!</string>
+    <string name="register_etConfirmPassword_error_match">Mật khẩu nhập lại không khớp!</string>
+
+    <string name="register_btnRegister_text">Đăng ký</string>
+    <string name="register_tvLogin_text">Bạn đã có tài khoản?  Đăng nhập ngay</string>
+    <!--  register string  -->
+
+    <!--  main string  -->
+    <string name="main_menuItemTable_text">Bảng</string>
+    <string name="main_menuItemCard_text">Thẻ</string>
+    <string name="main_menuItemNotify_text">Thông báo</string>
+    <string name="main_menuItemAccount_text">Tài khoản</string>
+    <!--  main string  -->
+
+    <!--  table string  -->
+    <string name="table_tvName_text">WorkBook</string>
+    <string name="table_tvTitle_text">Các bảng làm việc của bạn</string>
+
+    <string name="table_etSearch_hint">Bảng</string>
+
+    <string name="table_btnSearchCancel_text">Hủy</string>
+
+    <string name="tableItem_tvName_text">Bảng thử</string>
+    <!--  table string  -->
+
+    <!--  dialog table string  -->
+    <string name="dialogTable_tvName_text">Bảng</string>
+    <string name="dialogTable_etName_hint">Bảng mới</string>
+    <string name="dialogTable_tvTheme_text">Phông nền</string>
+    <!--  dialog table string  -->
+
+    <!--  card string  -->
+    <string name="card_tvName_text">WorkBook</string>
+    <string name="card_tvTitle_text">Các thẻ làm việc của</string>
+
+    <string name="card_etSearch_hint">Thẻ</string>
+
+    <string name="card_btnSearchCancel_text">Hủy</string>
+
+    <string name="cardItem_tvName_text">Thẻ thử</string>
+    <string name="cardExpire_tvTitle_text">Thẻ còn 3 ngày nữa sẽ hết hạn</string>
+    <!--  card string  -->
+
+    <!--  dialog table string  -->
+    <string name="dialogCard_tvName_text">Thẻ</string>
+
+    <string name="dialogCard_etName_hint">Thẻ mới</string>
+
+    <string name="dialogCard_etDescription_hint">Mô tả</string>
+
+    <string name="dialogCard_etStartDate_hint">Ngày bắt đầu ...</string>
+
+    <string name="dialogCard_etEndDate_hint">Ngày hết hạn ...</string>
+    <!--  dialog table string  -->
+
+    <!--  notify string  -->
+    <string name="notifyItem_tvTitle_text">Thông báo hết hạn</string>
+    <string name="notifyItem_tvDuration_text">1m ago</string>
+    <string name="notifyItem_tvMessage_text">Thẻ của bạn đã hết hạn</string>
+    <!--  notify string  -->
+
+    <!--  account string  -->
+    <string name="account_tvName_text">Họ và tên</string>
+    <string name="account_tvUsername_text">Tên người dùng</string>
+    <string name="account_tvCreateAt_text">Là thành viên WorkBook từ</string>
+    <string name="account_tvProfile_text">Hồ sơ tài khoản</string>
+    <string name="account_tvLogout_text">Đăng xuất</string>
+
+    <string name="accountProfile_btnChangeAvatar_text">Thay đổi ảnh đại diện</string>
+    <string name="accountProfile_btnUpdate_text">Cập nhật</string>
+
+    <string name="accountProfile_etFullName_hint">Họ và tên</string>
+    <string name="accountProfile_etUsername_hint">Tên người dùng</string>
+    <string name="accountProfile_etBirthDate_hint">Ngày sinh ...</string>
+
+    <string name="accountProfile_etFullName_error_empty">Họ và tên không thể để trống!</string>
+    <string name="accountProfile_etFullName_error_min">Họ và tên phải có từ 4 ký tự trở lên!</string>
+
+    <string name="accountProfile_etBirthDate_error_min">Ngày sinh phải từ 10 tuổi trở lên!</string>
+    <string name="accountProfile_etBirthDate_error_max">Ngày sinh chỉ tối đa 100 tuổi!</string>
+    <!--  account string  -->
+</resources>

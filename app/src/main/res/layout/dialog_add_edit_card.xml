@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bottom_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClose"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/x_deep_purple_icon" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/dialog_tvName_paddingLeft"
+            android:text="@string/dialogCard_tvName_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dialog_tvName_textSize" />
+
+        <Button
+            android:id="@+id/btnAddOrEdit"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_btnAdd_text"
+            android:textSize="@dimen/dialog_btnAdd_textSize" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:hint="@string/dialogCard_etName_hint"
+        android:padding="@dimen/editText_padding"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/dialog_etName_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvNameError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editTextMul_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:hint="@string/dialogCard_etDescription_hint"
+        android:padding="@dimen/editText_padding"
+        android:textColor="@color/black"
+        android:layout_marginVertical="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_input_marginHorizontal"
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        />
+
+    <EditText
+        android:id="@+id/etStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:drawableLeft="@drawable/time_icon"
+        android:drawablePadding="@dimen/editText_drawablePadding"
+        android:hint="@string/dialogCard_etStartDate_hint"
+        android:padding="@dimen/editText_padding"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        />
+
+    <TextView
+        android:id="@+id/tvStartDateError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"/>
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:drawableLeft="@drawable/time_icon"
+        android:drawablePadding="@dimen/editText_drawablePadding"
+        android:hint="@string/dialogCard_etEndDate_hint"
+        android:padding="@dimen/editText_padding"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        />
+
+    <TextView
+        android:id="@+id/tvEndDateError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"/>
+
+</LinearLayout>

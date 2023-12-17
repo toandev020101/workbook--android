@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity"
+    android:orientation="vertical"
+    android:background="@color/gray_100">
+
+  <LinearLayout
+      android:id="@+id/llHeader"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/deep_purple_500"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnClose"
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/chevron_left_icon" />
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/accountProfile_tvTitle_paddingLeft">
+
+      <ImageView
+          android:id="@+id/ivLogo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/logo_icon" />
+
+      <TextView
+          android:id="@+id/tvName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/header_tvName_marginLeft"
+          android:text="@string/table_tvName_text"
+          android:textColor="@color/white"
+          android:textSize="@dimen/header_tvName_textSize"
+          android:textStyle="bold" />
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:id="@+id/llAvatar"
+      android:layout_marginTop="@dimen/accountProfile_llAvatar_marginTop">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="@dimen/accountProfile_ivAvatar_size"
+        android:layout_height="@dimen/accountProfile_ivAvatar_size"
+        android:scaleType="fitXY"
+        android:src="@drawable/account_large_bold_icon" />
+
+    <Button
+        android:id="@+id/btnChangeAvatar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/accountProfile_btn_height"
+        android:text="@string/accountProfile_btnChangeAvatar_text"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/accountProfile_btn_marginTop"
+        android:textSize="@dimen/accountProfile_btn_textSize"/>
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:hint="@string/accountProfile_etFullName_hint"
+        android:padding="@dimen/editText_padding"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/dialog_etName_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvFullNameError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:padding="@dimen/editText_padding"
+        android:hint="@string/accountProfile_etUsername_hint"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        android:inputType="text"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/etBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:background="@drawable/custom_text_bg_active"
+        android:drawableLeft="@drawable/time_icon"
+        android:drawablePadding="@dimen/editText_drawablePadding"
+        android:hint="@string/accountProfile_etBirthDate_hint"
+        android:padding="@dimen/editText_padding"
+        android:focusable="false"
+        android:layout_marginTop="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"
+        />
+
+    <TextView
+        android:id="@+id/tvBirthDateError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:textColor="@color/red"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/dialog_input_marginVertical"
+        android:layout_marginHorizontal="@dimen/dialog_etName_marginHorizontal"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/accountProfile_btn_height"
+        android:layout_marginTop="@dimen/accountProfile_btn_marginTop"
+        android:text="@string/accountProfile_btnUpdate_text"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="@dimen/accountProfile_btnUpdate_marginHorizontal"
+        android:textSize="@dimen/accountProfile_btn_textSize"/>
+
+  </LinearLayout>
+
+</LinearLayout>
